@@ -1,0 +1,290 @@
+Time(s) (% of execution time)
+Template and Function Folds
+===================================
+ 6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+ 4.119s(10.68%) Fold on cudaDeviceReset (DEBUG ID: 34)
+ 1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+ 0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+ 0.017s( 0.05%) Fold on cudaFreeHost (DEBUG ID: 30)
+ 0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+Sequences of Unnecessary Operations
+===================================
+4.382s (11.36)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 738
+1.779s (4.61)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 994
+Single Points of Interest
+===================================
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+Time Recoverable: 4.382s (11.36% of execution time)                          
+Number of Sync Issues:  24    Number of Transfer Issues:   6                                     
+---------------
+Select start/ending subsequence to get refined estimate
+ 1. cudaMemcpy in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 738
+ 2. cudaMemcpy in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 739
+ 3. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 760
+ 4. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 761
+ 5. cudaDeviceSynchronize in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 820
+ 6. cudaDeviceSynchronize in /var/tmp/tmpxft_00023544_00000000-5_cg.cudafe1.cpp at line 686
+ 7. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 849
+ 8. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 854
+ 9. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 855
+10. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 856
+11. cudaDeviceSynchronize in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 877
+12. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 878
+13. cudaDeviceSynchronize in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 927
+14. cudaDeviceSynchronize in /var/tmp/tmpxft_00023544_00000000-5_cg.cudafe1.cpp at line 686
+15. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 961
+16. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 963
+17. cudaMemcpy in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 975
+18. cudaMemcpy in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 978
+19. cudaMemcpy in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 979
+20. cudaDeviceSynchronize in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 983
+21. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 985
+22. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 986
+23. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 987
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+Time Recoverable: 4.382s (11.36% of execution time)                          
+Select ending of subsequence to get refined estimate
+---------------
+ 1. cudaMemcpy in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 738
+ 2. cudaMemcpy in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 739
+ 3. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 760
+ 4. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 761
+ 5. cudaDeviceSynchronize in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 820
+ 6. cudaDeviceSynchronize in /var/tmp/tmpxft_00023544_00000000-5_cg.cudafe1.cpp at line 686
+ 7. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 849
+ 8. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 854
+ 9. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 855
+[Start] 10. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 856
+11. cudaDeviceSynchronize in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 877
+12. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 878
+13. cudaDeviceSynchronize in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 927
+14. cudaDeviceSynchronize in /var/tmp/tmpxft_00023544_00000000-5_cg.cudafe1.cpp at line 686
+15. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 961
+16. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 963
+17. cudaMemcpy in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 975
+18. cudaMemcpy in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 978
+19. cudaMemcpy in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 979
+20. cudaDeviceSynchronize in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 983
+21. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 985
+22. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 986
+23. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 987
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+Time Recoverable In Subsequence: 3.842s (9.96% of execution time)                          
+     9. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 856
+    10. cudaDeviceSynchronize in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 877
+    11. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 878
+    12. cudaDeviceSynchronize in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 927
+    13. cudaDeviceSynchronize in /var/tmp/tmpxft_00023544_00000000-5_cg.cudafe1.cpp at line 686
+    14. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 961
+    15. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 963
+    16. cudaMemcpy in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 975
+    17. cudaMemcpy in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 978
+    18. cudaMemcpy in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 979
+    19. cudaDeviceSynchronize in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 983
+    20. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 985
+    21. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 986
+    22. cudaFree in /var/tmp/tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 987
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+Template and Function Folds
+===================================
+ 6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+ 4.119s(10.68%) Fold on cudaDeviceReset (DEBUG ID: 34)
+ 1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+ 0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+ 0.017s( 0.05%) Fold on cudaFreeHost (DEBUG ID: 30)
+ 0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+Sequences of Unnecessary Operations
+===================================
+4.382s (11.36)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 738
+1.779s (4.61)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 994
+Single Points of Interest
+===================================
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+Template and Function Folds
+===================================
+ 6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+ 4.119s(10.68%) Fold on cudaDeviceReset (DEBUG ID: 34)
+ 1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+ 0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+ 0.017s( 0.05%) Fold on cudaFreeHost (DEBUG ID: 30)
+ 0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+Sequences of Unnecessary Operations
+===================================
+4.382s (11.36)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 738
+1.779s (4.61)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 994
+Single Points of Interest
+===================================
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+Template and Function Folds
+===================================
+ 6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+ 4.119s(10.68%) Fold on cudaDeviceReset (DEBUG ID: 34)
+ 1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+ 0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+ 0.017s( 0.05%) Fold on cudaFreeHost (DEBUG ID: 30)
+ 0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+Sequences of Unnecessary Operations
+===================================
+4.382s (11.36)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 738
+1.779s (4.61)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 994
+Single Points of Interest
+===================================
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+ 6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+  6.312s(16.36%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 8)
+    Conditionally unnecessary synchronization/transfer (see: conditions)
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+Unnecessary if the following operations are kept
+  
+  6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+   6.312s(16.36%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 8)
+     6.312s(16.36%) main (DEBUG ID: 9)
+       6.312s(16.36%) generic_start_main.isra.0 (DEBUG ID: 10)
+
+  
+  1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+   1.926s(4.99%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 3)
+     1.926s(4.99%) main (DEBUG ID: 4)
+       1.926s(4.99%) generic_start_main.isra.0 (DEBUG ID: 5)
+
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+ 6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+  6.312s(16.36%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 8)
+    Conditionally unnecessary synchronization/transfer (see: conditions)
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+Template and Function Folds
+===================================
+ 6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+ 4.119s(10.68%) Fold on cudaDeviceReset (DEBUG ID: 34)
+ 1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+ 0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+ 0.017s( 0.05%) Fold on cudaFreeHost (DEBUG ID: 30)
+ 0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+Sequences of Unnecessary Operations
+===================================
+4.382s (11.36)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 738
+1.779s (4.61)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 994
+Single Points of Interest
+===================================
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+Template and Function Folds
+===================================
+ 6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+ 4.119s(10.68%) Fold on cudaDeviceReset (DEBUG ID: 34)
+ 1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+ 0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+ 0.017s( 0.05%) Fold on cudaFreeHost (DEBUG ID: 30)
+ 0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+Sequences of Unnecessary Operations
+===================================
+4.382s (11.36)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 738
+1.779s (4.61)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 994
+Single Points of Interest
+===================================
+  6.312s(16.36%) cudaFree in main at line 0
+  4.119s(10.68%) cudaDeviceReset in main at line 0
+  1.926s(4.99%) cudaMemcpy in main at line 0
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+Template and Function Folds
+===================================
+ 6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+ 4.119s(10.68%) Fold on cudaDeviceReset (DEBUG ID: 34)
+ 1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+ 0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+ 0.017s( 0.05%) Fold on cudaFreeHost (DEBUG ID: 30)
+ 0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+Sequences of Unnecessary Operations
+===================================
+4.382s (11.36)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 738
+1.779s (4.61)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 994
+Single Points of Interest
+===================================
+  6.312s(16.36%) cudaFree in main at line 0
+  4.119s(10.68%) cudaDeviceReset in main at line 0
+  1.926s(4.99%) cudaMemcpy in main at line 0
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+Template and Function Folds
+===================================
+ 6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+ 4.119s(10.68%) Fold on cudaDeviceReset (DEBUG ID: 34)
+ 1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+ 0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+ 0.017s( 0.05%) Fold on cudaFreeHost (DEBUG ID: 30)
+ 0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+Sequences of Unnecessary Operations
+===================================
+4.382s (11.36)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 738
+1.779s (4.61)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 994
+Single Points of Interest
+===================================
+  6.312s(16.36%) cudaFree in main at line 0
+  4.119s(10.68%) cudaDeviceReset in main at line 0
+  1.926s(4.99%) cudaMemcpy in main at line 0
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+ 0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+---------------
+Back/Previous
+Exit
+Time(s) (% of execution time)
+Template and Function Folds
+===================================
+ 6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+ 4.119s(10.68%) Fold on cudaDeviceReset (DEBUG ID: 34)
+ 1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+ 0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+ 0.017s( 0.05%) Fold on cudaFreeHost (DEBUG ID: 30)
+ 0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+Sequences of Unnecessary Operations
+===================================
+4.382s (11.36)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 738
+1.779s (4.61)% Sequence starting at call doALS(int const*, int const*,  in tmpxft_000235af_00000000-5_als.cudafe1.cpp at line 994
+Single Points of Interest
+===================================
+  6.312s(16.36%) cudaFree in main at line 0
+  4.119s(10.68%) cudaDeviceReset in main at line 0
+  1.926s(4.99%) cudaMemcpy in main at line 0
+---------------
+Back/Previous
+Exit

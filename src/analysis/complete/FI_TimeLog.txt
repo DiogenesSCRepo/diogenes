@@ -1,0 +1,9 @@
+[[TimeLog]] [PROCCTR] Launch Arguments - /g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil
+[[TimeLog]] [PROCCTR] Launch Arguments - /g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/box2d_adv.input
+[[TimeLog]] Loading library libcuda.so.1 into address space
+[[TimeLog]] Loading library /g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/libStubLib.so into address space
+[[TimeLog]] Loading library /g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeFirstUse.so into address space
+[[TimeLog]] Loading library /g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libPluginCommon.so into address space
+[[TimeLog]] Loading library /g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libStacktrace.so into address space
+[[TimeLog]] Loading library /usr/lib64/nvidia/libcuda.so.1 into address space
+[[TimeLog]] Loading library /lib64/libc.so.6 into address space

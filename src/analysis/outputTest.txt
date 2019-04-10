@@ -1,0 +1,316 @@
+Stack records read for file - /home/welton/repo/cuda_deduplicator/src/analysis/complete/LS_tracekey.txt
+	Stack 203316
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275803480
+
+	Stack 203319
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275803532
+
+
+Stack records read for file - /home/welton/repo/cuda_deduplicator/src/analysis/complete/LS_stackkey.txt
+	Stack 1
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272160276
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272166560
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275614000
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275628164
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275561076
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271693044
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271404616
+
+
+Stack records read for file - /home/welton/repo/cuda_deduplicator/src/analysis/complete/TF_timekey.txt
+	Stack 1
+		/lib64/libc.so.6@149748
+		/lib64/libc.so.6@149248
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271373052
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272153628
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275503728
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275874408
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271914532
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271910080
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@274176756
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271264712
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271265928
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271267204
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271269404
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@278050024
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@278210680
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@278214984
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@278169280
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@278174884
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271735340
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271461112
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271598188
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271654272
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271650972
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271650012
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+
+	Stack 2
+		/lib64/libc.so.6@149748
+		/lib64/libc.so.6@149248
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271373052
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272153780
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272157956
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275535512
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275561076
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271693044
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271404616
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+
+	Stack 3
+		/lib64/libc.so.6@149748
+		/lib64/libc.so.6@149248
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271373052
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272153780
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272158516
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272157956
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275535512
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275561076
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271693044
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271404616
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+
+	Stack 4
+		/lib64/libc.so.6@149748
+		/lib64/libc.so.6@149248
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271374196
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272160276
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272166560
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275612128
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275613720
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275620520
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275561076
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271693044
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271404616
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+
+	Stack 5
+		/lib64/libc.so.6@149748
+		/lib64/libc.so.6@149248
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271374196
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272160276
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272166560
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275612128
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275613892
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275613720
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275620520
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275561076
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271693044
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271404616
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+
+	Stack 6
+		/lib64/libc.so.6@149748
+		/lib64/libc.so.6@149248
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271374196
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272160276
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@272166560
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275612128
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275614000
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275628164
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@275561076
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271693044
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271404616
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+
+	Stack 7
+		/lib64/libc.so.6@149748
+		/lib64/libc.so.6@149248
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271379572
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@277162936
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@277164244
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271395248
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271692516
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271403696
+		/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271588328
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+		/g/g17/welton2/repo/spack/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/cudadedup-develop-sfolqw2eykf4ubdm3umxxvnky2ul6k7r/lib/plugins/libTimeCall.so@35092
+
+
+LS_Trace file  (LS Trace Key ID, LS Stack Trace ID)
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203319,1
+203319,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203319,1
+203319,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+203316,1
+
+TF_Trace file decoded: 
+1,1,1,52,0.066941802
+1,3,2,1,1.191e-05
+1,3,3,1,2.0418e-05
+1,3,4,1,2.1492e-05
+1,3,5,1,1.6972e-05
+1,3,6,1,2.032e-05
+1,3,4,1,1.9244e-05
+1,3,5,1,1.5945e-05
+1,3,6,1,0.005570895
+1,3,4,1,1.942e-05
+1,3,5,1,1.7715e-05
+1,3,6,1,1.9184e-05
+1,3,4,1,1.9316e-05
+1,3,5,1,1.7805e-05
+1,3,6,1,1.7982e-05
+1,3,4,1,1.9514e-05
+1,3,5,1,1.7112e-05
+1,3,6,1,2.2404e-05
+1,3,4,1,1.7773e-05
+1,3,5,1,1.6711e-05
+1,3,6,1,1.783e-05
+1,3,4,1,1.9049e-05
+1,3,5,1,1.6527e-05
+1,3,6,1,2.7859e-05
+1,3,4,1,2.3613e-05
+1,3,5,1,2.1539e-05
+1,3,6,1,2.2127e-05
+1,3,4,1,2.3367e-05
+1,3,5,1,2.1387e-05
+1,3,6,1,2.3748e-05
+1,3,4,1,2.3449e-05
+1,3,5,1,2.1272e-05
+1,3,6,1,2.3396e-05
+1,3,4,1,2.3685e-05
+1,3,5,1,1.9108e-05
+1,3,6,1,2.3381e-05
+1,3,4,1,2.3088e-05
+1,3,5,1,2.2254e-05
+1,3,6,1,2.7028e-05
+1,3,4,1,2.2269e-05
+1,3,5,1,2.2029e-05
+1,3,6,1,2.3293e-05
+1,3,4,1,2.3406e-05
+1,3,5,1,2.1797e-05
+1,3,6,1,2.3125e-05
+1,3,4,1,2.365e-05
+1,3,5,1,2.2326e-05
+1,3,6,1,2.7478e-05
+1,3,4,1,2.3412e-05
+1,3,5,1,2.1339e-05
+1,3,6,1,2.4135e-05
+1,3,4,1,2.257e-05
+1,3,5,1,2.171e-05
+1,3,6,1,2.4315e-05
+1,3,4,1,2.3481e-05
+1,3,5,1,2.2321e-05
+1,3,6,1,2.4074e-05
+1,3,4,1,2.3251e-05
+1,3,5,1,2.2556e-05
+1,3,6,1,2.6307e-05
+1,3,4,1,2.3742e-05
+1,3,5,1,2.2654e-05
+1,3,6,1,2.2065e-05
+1,3,4,1,2.3681e-05
+1,3,5,1,2.1865e-05
+1,3,6,1,2.2506e-05
+1,3,4,1,2.3086e-05
+1,3,5,1,2.1979e-05
+1,3,6,1,2.3119e-05
+1,3,4,1,2.367e-05
+1,3,5,1,2.2643e-05
+1,3,6,1,2.372e-05
+1,3,4,1,2.404e-05
+1,3,5,1,2.1912e-05
+1,3,6,1,5.5317e-05
+1,3,4,1,2.4019e-05
+1,3,5,1,2.2045e-05
+1,3,6,1,0.017136136
+1,4,7,2,0.874722114
+
+/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271650012
+/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271404616
+/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271404616
+/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271404616
+/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271404616
+/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271404616
+/g/g17/welton2/repo/samrai/install/build/ppc64le-clang/samrai-uvm/bin/stencil@271588328
+[]
+[[1, 1, 1, 52, 0.066941802], [1, 3, 2, 1, 1.191e-05], [1, 3, 3, 1, 2.0418e-05], [1, 3, 4, 1, 2.1492e-05], [1, 3, 5, 1, 1.6972e-05], [1, 3, 6, 1, 2.032e-05], [1, 3, 4, 1, 1.9244e-05], [1, 3, 5, 1, 1.5945e-05], [1, 3, 6, 1, 0.005570895], [1, 3, 4, 1, 1.942e-05], [1, 3, 5, 1, 1.7715e-05], [1, 3, 6, 1, 1.9184e-05], [1, 3, 4, 1, 1.9316e-05], [1, 3, 5, 1, 1.7805e-05], [1, 3, 6, 1, 1.7982e-05], [1, 3, 4, 1, 1.9514e-05], [1, 3, 5, 1, 1.7112e-05], [1, 3, 6, 1, 2.2404e-05], [1, 3, 4, 1, 1.7773e-05], [1, 3, 5, 1, 1.6711e-05], [1, 3, 6, 1, 1.783e-05], [1, 3, 4, 1, 1.9049e-05], [1, 3, 5, 1, 1.6527e-05], [1, 3, 6, 1, 2.7859e-05], [1, 3, 4, 1, 2.3613e-05], [1, 3, 5, 1, 2.1539e-05], [1, 3, 6, 1, 2.2127e-05], [1, 3, 4, 1, 2.3367e-05], [1, 3, 5, 1, 2.1387e-05], [1, 3, 6, 1, 2.3748e-05], [1, 3, 4, 1, 2.3449e-05], [1, 3, 5, 1, 2.1272e-05], [1, 3, 6, 1, 2.3396e-05], [1, 3, 4, 1, 2.3685e-05], [1, 3, 5, 1, 1.9108e-05], [1, 3, 6, 1, 2.3381e-05], [1, 3, 4, 1, 2.3088e-05], [1, 3, 5, 1, 2.2254e-05], [1, 3, 6, 1, 2.7028e-05], [1, 3, 4, 1, 2.2269e-05], [1, 3, 5, 1, 2.2029e-05], [1, 3, 6, 1, 2.3293e-05], [1, 3, 4, 1, 2.3406e-05], [1, 3, 5, 1, 2.1797e-05], [1, 3, 6, 1, 2.3125e-05], [1, 3, 4, 1, 2.365e-05], [1, 3, 5, 1, 2.2326e-05], [1, 3, 6, 1, 2.7478e-05], [1, 3, 4, 1, 2.3412e-05], [1, 3, 5, 1, 2.1339e-05], [1, 3, 6, 1, 2.4135e-05], [1, 3, 4, 1, 2.257e-05], [1, 3, 5, 1, 2.171e-05], [1, 3, 6, 1, 2.4315e-05], [1, 3, 4, 1, 2.3481e-05], [1, 3, 5, 1, 2.2321e-05], [1, 3, 6, 1, 2.4074e-05], [1, 3, 4, 1, 2.3251e-05], [1, 3, 5, 1, 2.2556e-05], [1, 3, 6, 1, 2.6307e-05], [1, 3, 4, 1, 2.3742e-05], [1, 3, 5, 1, 2.2654e-05], [1, 3, 6, 1, 2.2065e-05], [1, 3, 4, 1, 2.3681e-05], [1, 3, 5, 1, 2.1865e-05], [1, 3, 6, 1, 2.2506e-05], [1, 3, 4, 1, 2.3086e-05], [1, 3, 5, 1, 2.1979e-05], [1, 3, 6, 1, 2.3119e-05], [1, 3, 4, 1, 2.367e-05], [1, 3, 5, 1, 2.2643e-05], [1, 3, 6, 1, 2.372e-05], [1, 3, 4, 1, 2.404e-05], [1, 3, 5, 1, 2.1912e-05], [1, 3, 6, 1, 5.5317e-05], [1, 3, 4, 1, 2.4019e-05], [1, 3, 5, 1, 2.2045e-05], [1, 3, 6, 1, 0.017136136], [1, 4, 7, 2, 0.874722114]]
+
+
+
+
+
+Estimated time savings from unnecessary synchroniations/data transfers: 0.966036798
+Table of unnecessary operation
+
+App Bin              | App Function         | Cuda Call            | Stack ID   | Type                 | Call Count | Est Impact
+Traceback (most recent call last):
+  File "Driver.py", line 106, in <module>
+    d.Run()
+  File "Driver.py", line 99, in Run
+    print '%-20.20s | %-20.20s | %-20.20s | %-10.10s | %-20.20s | %-10.10s | %-10.10s' % (ucall.GetFilename(),str(ucall._offset),str(ccall._offset),str(i),"Sync",str(x[3]), str(x[4]))
+AttributeError: 'NoneType' object has no attribute '_offset'

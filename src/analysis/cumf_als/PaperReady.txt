@@ -1,0 +1,95 @@
+:0STATS: Starting Execution Time = 38.582
+Time W/ Fixes  = 35.497 (8% reduction)
+Time Recovered = 3.085 (80% of estimated)
+
+
+comparison to nvprof Function Folded:
+
+call 			       diogenese time/pos				nvprof time/pos
+cudaDeviceSynchronize  0.028s ( 0.07%)/4				21.1s (52.97%)/1
+cudaFree 		       6.312s (16.36%)/1       		    7.45s (18.70%)/2
+cudaMalloc             (No Sync, untracted)				6.25s (15.71%)/3
+cudaMemcpy             1.926s ( 4.99%)/3				4.41s (11.80%)/4
+cudaDeviceReset        4.119s (10.68%)/2				0.33s ( 0.85%)/5
+
+
+nvprof lists cudaDeviceSynchronize as number one, but there is limited savings.
+
+The most costly synchronization nvprof lists is:
+
+  6.52%  7.94167s  updateXWithCGHost(float*, float*, float*, int, int, float) (cg.cu:687 0xfc)
+  6.52%  7.94167s  | cudaDeviceSynchronize (0x128) 
+
+However removal of this synchronization results in no performance gain.
+
+Why? occur close to other synchronizations, causing the delay to be reduced only a fraction
+of the total synchronization time.
+
+Is there anyway we can recover some of that time? Yes if we can find more unnecessary synchronizations.
+
+
+Sequences of Unnecessary Operations
+===================================
+4.382s(11.36)% Sequence starting at call doALS in als.cpp at line 738
+1.779s( 4.61)% Sequence starting at call doALS in als.cpp at line 994
+
+
+Time Recoverable: 4.382s (11.36% of execution time)                          
+Number of Sync Issues:  24    Number of Transfer Issues:   5                                   
+---------------
+Select start/ending subsequence to get refined estimate
+ 1. cudaMemcpy in als.cpp at line 738
+ 2. cudaMemcpy in als.cpp at line 739
+ 3. cudaFree in als.cpp at line 760
+ 4. cudaFree in als.cpp at line 761
+ 5. cudaDeviceSynchronize in als.cpp at line 820
+ 6. cudaDeviceSynchronize in cg.cpp at line 686
+ 7. cudaFree in als.cpp at line 849
+ 8. cudaFree in als.cpp at line 854
+ 9. cudaFree in als.cpp at line 855
+10. cudaFree in als.cpp at line 856
+11. cudaDeviceSynchronize in als.cpp at line 877
+12. cudaFree in als.cpp at line 878
+13. cudaDeviceSynchronize in als.cpp at line 927
+14. cudaDeviceSynchronize in cg.cpp at line 686
+15. cudaFree in als.cpp at line 961
+16. cudaFree in als.cpp at line 963
+17. cudaMemcpy in als.cpp at line 975
+18. cudaMemcpy in als.cpp at line 978
+19. cudaMemcpy in als.cpp at line 979
+20. cudaDeviceSynchronize in als.cpp at line 983
+21. cudaFree in als.cpp at line 985
+22. cudaFree in als.cpp at line 986
+23. cudaFree in als.cpp at line 987
+---------------
+Back/Previous
+Exit
+
+Time(s) (% of execution time)
+Time Recoverable In Subsequence: 3.842s (9.96% of execution time)                          
+    10. cudaFree in als.cpp at line 856
+    11. cudaDeviceSynchronize in als.cpp at line 877
+    12. cudaFree in als.cpp at line 878
+    13. cudaDeviceSynchronize in als.cpp at line 927
+    14. cudaDeviceSynchronize in cg.cpp at line 686
+    15. cudaFree in als.cpp at line 961
+    16. cudaFree in als.cpp at line 963
+    17. cudaMemcpy in als.cpp at line 975
+    18. cudaMemcpy in als.cpp at line 978
+    19. cudaMemcpy in als.cpp at line 979
+    20. cudaDeviceSynchronize in als.cpp at line 983
+    21. cudaFree in als.cpp at line 985
+    22. cudaFree in als.cpp at line 986
+    23. cudaFree in als.cpp at line 987
+---------------
+Back/Previous
+Exit
+
+API calls:   52.97%  21.1059s      1260  16.751ms  5.8420us  186.91ms  cudaDeviceSynchronize
+           18.70%  7.45066s      2387  3.1213ms  13.338us  400.54ms  cudaFree
+           15.71%  6.25984s      2388  2.6214ms  9.1020us  11.392ms  cudaMalloc
+           11.08%  4.41520s      1268  3.4820ms  19.912us  7.3734ms  cudaMemcpy
+            0.85%  337.93ms         1  337.93ms  337.93ms  337.93ms  cudaDeviceReset
+            0.47%  187.03ms         9  20.782ms  456.84us  160.16ms  cudaMallocHost
+            0.08%  32.905ms      2240  14.689us  9.2580us  577.78us  cudaLaunchKernel
+            0.05%  21.034ms         9  2.3371ms  188.29us  3.4708ms  cudaFreeHost

@@ -1,0 +1,241 @@
+
+  4.119s(10.68%) Fold on cudaDeviceReset (DEBUG ID: 34)
+   4.119s(10.68%) main (DEBUG ID: 35)
+
+
+  4.119s(10.68%) Fold on cudaDeviceReset (DEBUG ID: 34)
+   4.119s(10.68%) main (DEBUG ID: 35)
+     4.119s(10.68%) generic_start_main.isra.0 (DEBUG ID: 36)
+
+
+  4.119s(10.68%) Fold on cudaDeviceReset (DEBUG ID: 34)
+   4.119s(10.68%) main (DEBUG ID: 35)
+     4.119s(10.68%) generic_start_main.isra.0 (DEBUG ID: 36)
+
+
+  4.119s(10.68%) Fold on cudaDeviceReset (DEBUG ID: 34)
+   4.119s(10.68%) main (DEBUG ID: 35)
+     4.119s(10.68%) generic_start_main.isra.0 (DEBUG ID: 36)
+       0.000s(0.00%) __libc_start_main (DEBUG ID: 37)
+
+
+  0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+
+
+  0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+   0.007s(0.02%) updateXWithCGHost(float*, float*, float*, int, int, float)<...> (DEBUG ID: 17)
+
+
+  0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+   0.007s(0.02%) updateXWithCGHost(float*, float*, float*, int, int, float)<...> (DEBUG ID: 17)
+     0.007s(0.02%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 18)
+
+
+  0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+   0.007s(0.02%) updateXWithCGHost(float*, float*, float*, int, int, float)<...> (DEBUG ID: 17)
+     0.007s(0.02%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 18)
+       0.007s(0.02%) main (DEBUG ID: 19)
+
+
+  0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+   0.007s(0.02%) updateXWithCGHost(float*, float*, float*, int, int, float)<...> (DEBUG ID: 17)
+     0.007s(0.02%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 18)
+       0.007s(0.02%) main (DEBUG ID: 19)
+         0.007s(0.02%) generic_start_main.isra.0 (DEBUG ID: 20)
+
+
+  0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+   0.007s(0.02%) updateXWithCGHost(float*, float*, float*, int, int, float)<...> (DEBUG ID: 17)
+     0.007s(0.02%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 18)
+       0.007s(0.02%) main (DEBUG ID: 19)
+         0.007s(0.02%) generic_start_main.isra.0 (DEBUG ID: 20)
+           0.000s(0.00%) __libc_start_main (DEBUG ID: 21)
+
+
+  0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+   0.021s(0.05%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 13)
+
+
+  0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+   0.021s(0.05%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 13)
+     0.021s(0.05%) main (DEBUG ID: 14)
+
+
+  0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+   0.021s(0.05%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 13)
+     0.021s(0.05%) main (DEBUG ID: 14)
+       0.021s(0.05%) generic_start_main.isra.0 (DEBUG ID: 15)
+
+
+  0.028s( 0.07%) Fold on cudaDeviceSynchronize (DEBUG ID: 12)
+   0.021s(0.05%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 13)
+     0.021s(0.05%) main (DEBUG ID: 14)
+       0.021s(0.05%) generic_start_main.isra.0 (DEBUG ID: 15)
+         0.000s(0.00%) __libc_start_main (DEBUG ID: 16)
+
+
+  1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+   1.926s(4.99%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 3)
+
+
+  1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+   1.926s(4.99%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 3)
+     1.926s(4.99%) main (DEBUG ID: 4)
+
+
+  1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+   1.926s(4.99%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 3)
+     1.926s(4.99%) main (DEBUG ID: 4)
+       1.926s(4.99%) generic_start_main.isra.0 (DEBUG ID: 5)
+
+
+  1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+   1.926s(4.99%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 3)
+     1.926s(4.99%) main (DEBUG ID: 4)
+       1.926s(4.99%) generic_start_main.isra.0 (DEBUG ID: 5)
+
+
+  1.926s( 4.99%) Fold on cudaMemcpy (DEBUG ID: 2)
+   1.926s(4.99%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 3)
+     1.926s(4.99%) main (DEBUG ID: 4)
+       1.926s(4.99%) generic_start_main.isra.0 (DEBUG ID: 5)
+         0.000s(0.00%) __libc_start_main (DEBUG ID: 6)
+
+
+  6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+   6.312s(16.36%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 8)
+
+
+  6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+   6.312s(16.36%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 8)
+     6.312s(16.36%) main (DEBUG ID: 9)
+
+
+  6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+   6.312s(16.36%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 8)
+     6.312s(16.36%) main (DEBUG ID: 9)
+       6.312s(16.36%) generic_start_main.isra.0 (DEBUG ID: 10)
+
+
+  6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+   6.312s(16.36%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 8)
+     6.312s(16.36%) main (DEBUG ID: 9)
+       6.312s(16.36%) generic_start_main.isra.0 (DEBUG ID: 10)
+
+
+  6.312s(16.36%) Fold on cudaFree (DEBUG ID: 7)
+   6.312s(16.36%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 8)
+     6.312s(16.36%) main (DEBUG ID: 9)
+       6.312s(16.36%) generic_start_main.isra.0 (DEBUG ID: 10)
+         0.000s(0.00%) __libc_start_main (DEBUG ID: 11)
+
+
+  0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+
+
+  0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+   0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 23)
+
+
+  0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+   0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 23)
+     0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 24)
+
+
+  0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+   0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 23)
+     0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 24)
+       0.004s(0.01%) cublasSasum_v2 (DEBUG ID: 25)
+
+
+  0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+   0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 23)
+     0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 24)
+       0.004s(0.01%) cublasSasum_v2 (DEBUG ID: 25)
+         0.004s(0.01%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 26)
+
+
+  0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+   0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 23)
+     0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 24)
+       0.004s(0.01%) cublasSasum_v2 (DEBUG ID: 25)
+         0.004s(0.01%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 26)
+           0.004s(0.01%) main (DEBUG ID: 27)
+
+
+  0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+   0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 23)
+     0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 24)
+       0.004s(0.01%) cublasSasum_v2 (DEBUG ID: 25)
+         0.004s(0.01%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 26)
+           0.004s(0.01%) main (DEBUG ID: 27)
+             0.004s(0.01%) generic_start_main.isra.0 (DEBUG ID: 28)
+
+
+  0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+   0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 23)
+     0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 24)
+       0.004s(0.01%) cublasSasum_v2 (DEBUG ID: 25)
+         0.004s(0.01%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 26)
+           0.004s(0.01%) main (DEBUG ID: 27)
+             0.004s(0.01%) generic_start_main.isra.0 (DEBUG ID: 28)
+               0.000s(0.00%) __libc_start_main (DEBUG ID: 29)
+
+
+  0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+   0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 23)
+     0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 24)
+       0.000s(0.00%) cublasCreate_v2 (DEBUG ID: 38)
+
+
+  0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+   0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 23)
+     0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 24)
+       0.000s(0.00%) cublasCreate_v2 (DEBUG ID: 38)
+         0.000s(0.00%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 39)
+
+
+  0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+   0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 23)
+     0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 24)
+       0.000s(0.00%) cublasCreate_v2 (DEBUG ID: 38)
+         0.000s(0.00%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 39)
+           0.000s(0.00%) main (DEBUG ID: 40)
+
+
+  0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+   0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 23)
+     0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 24)
+       0.000s(0.00%) cublasCreate_v2 (DEBUG ID: 38)
+         0.000s(0.00%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 39)
+           0.000s(0.00%) main (DEBUG ID: 40)
+             0.000s(0.00%) generic_start_main.isra.0 (DEBUG ID: 41)
+
+
+  0.004s( 0.01%) Fold on cublasGemmStridedBatchedEx (DEBUG ID: 22)
+   0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 23)
+     0.004s(0.01%) cublasGemmStridedBatchedEx (DEBUG ID: 24)
+       0.000s(0.00%) cublasCreate_v2 (DEBUG ID: 38)
+         0.000s(0.00%) doALS(int const*, int const*, float const*, int const*, int const*, float const*, int const*, float*, float*, int const*, int const*, float const*, int, int, int, long, long, float, int, int, int, int)<...> (DEBUG ID: 39)
+           0.000s(0.00%) main (DEBUG ID: 40)
+             0.000s(0.00%) generic_start_main.isra.0 (DEBUG ID: 41)
+               0.000s(0.00%) __libc_start_main (DEBUG ID: 42)
+
+
+  0.017s( 0.05%) Fold on cudaFreeHost (DEBUG ID: 30)
+
+
+  0.017s( 0.05%) Fold on cudaFreeHost (DEBUG ID: 30)
+   0.017s(0.05%) main (DEBUG ID: 31)
+
+
+  0.017s( 0.05%) Fold on cudaFreeHost (DEBUG ID: 30)
+   0.017s(0.05%) main (DEBUG ID: 31)
+     0.017s(0.05%) generic_start_main.isra.0 (DEBUG ID: 32)
+
+
+  0.017s( 0.05%) Fold on cudaFreeHost (DEBUG ID: 30)
+   0.017s(0.05%) main (DEBUG ID: 31)
+     0.017s(0.05%) generic_start_main.isra.0 (DEBUG ID: 32)
+       0.000s(0.00%) __libc_start_main (DEBUG ID: 33)
+

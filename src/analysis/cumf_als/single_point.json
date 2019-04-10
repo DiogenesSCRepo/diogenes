@@ -1,0 +1,323 @@
+{
+    "Elements": [
+        {
+            "DisplayID": 50000037, 
+            "TextRows": [
+                {
+                    "Text": [
+                        "4.119s(10.68%) cudaDeviceReset in main at line 0"
+                    ], 
+                    "depth": 1, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "4.119s(10.68%) generic_start_main.isra.0 in libc.so.6 at line 0"
+                    ], 
+                    "depth": 2, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "4.119s(10.68%) __libc_start_main in libc.so.6 at line 0"
+                    ], 
+                    "depth": 3, 
+                    "LinkIDs": null
+                }
+            ]
+        }, 
+        {
+            "DisplayID": 50000036, 
+            "TextRows": [
+                {
+                    "Text": [
+                        "4.119s(10.68%) cudaDeviceReset in main at line 0"
+                    ], 
+                    "depth": 1, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "4.119s(10.68%) generic_start_main.isra.0 in libc.so.6 at line 0"
+                    ], 
+                    "depth": 2, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "4.119s(10.68%) __libc_start_main in libc.so.6 at line 0"
+                    ], 
+                    "depth": 3, 
+                    "LinkIDs": 50000037
+                }
+            ]
+        }, 
+        {
+            "DisplayID": 50000035, 
+            "TextRows": [
+                {
+                    "Text": [
+                        "4.119s(10.68%) cudaDeviceReset in main at line 0"
+                    ], 
+                    "depth": 1, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "4.119s(10.68%) generic_start_main.isra.0 in libc.so.6 at line 0"
+                    ], 
+                    "depth": 2, 
+                    "LinkIDs": 50000036
+                }
+            ]
+        }, 
+        {
+            "DisplayID": 50000004, 
+            "TextRows": [
+                {
+                    "Text": [
+                        "1.926s(4.99%) cudaMemcpy in main at line 0"
+                    ], 
+                    "depth": 1, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "1.926s(4.99%) main in main.cpp at line 146"
+                    ], 
+                    "depth": 2, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "1.926s(4.99%) generic_start_main.isra.0 in libc.so.6 at line 0"
+                    ], 
+                    "depth": 3, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "1.926s(4.99%) __libc_start_main in libc.so.6 at line 0"
+                    ], 
+                    "depth": 4, 
+                    "LinkIDs": null
+                }
+            ]
+        }, 
+        {
+            "DisplayID": 50000003, 
+            "TextRows": [
+                {
+                    "Text": [
+                        "1.926s(4.99%) cudaMemcpy in main at line 0"
+                    ], 
+                    "depth": 1, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "1.926s(4.99%) main in main.cpp at line 146"
+                    ], 
+                    "depth": 2, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "1.926s(4.99%) generic_start_main.isra.0 in libc.so.6 at line 0"
+                    ], 
+                    "depth": 3, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "1.926s(4.99%) __libc_start_main in libc.so.6 at line 0"
+                    ], 
+                    "depth": 4, 
+                    "LinkIDs": 50000004
+                }
+            ]
+        }, 
+        {
+            "DisplayID": 50000002, 
+            "TextRows": [
+                {
+                    "Text": [
+                        "1.926s(4.99%) cudaMemcpy in main at line 0"
+                    ], 
+                    "depth": 1, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "1.926s(4.99%) main in main.cpp at line 146"
+                    ], 
+                    "depth": 2, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "1.926s(4.99%) generic_start_main.isra.0 in libc.so.6 at line 0"
+                    ], 
+                    "depth": 3, 
+                    "LinkIDs": 50000003
+                }
+            ]
+        }, 
+        {
+            "DisplayID": 50000001, 
+            "TextRows": [
+                {
+                    "Text": [
+                        "1.926s(4.99%) cudaMemcpy in main at line 0"
+                    ], 
+                    "depth": 1, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "1.926s(4.99%) main in main.cpp at line 146"
+                    ], 
+                    "depth": 2, 
+                    "LinkIDs": 50000002
+                }
+            ]
+        }, 
+        {
+            "DisplayID": 50000008, 
+            "TextRows": [
+                {
+                    "Text": [
+                        "6.312s(16.36%) cudaFree in main at line 0"
+                    ], 
+                    "depth": 1, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "6.312s(16.36%) main in main.cpp at line 146"
+                    ], 
+                    "depth": 2, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "6.312s(16.36%) generic_start_main.isra.0 in libc.so.6 at line 0"
+                    ], 
+                    "depth": 3, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "6.312s(16.36%) __libc_start_main in libc.so.6 at line 0"
+                    ], 
+                    "depth": 4, 
+                    "LinkIDs": null
+                }
+            ]
+        }, 
+        {
+            "DisplayID": 50000007, 
+            "TextRows": [
+                {
+                    "Text": [
+                        "6.312s(16.36%) cudaFree in main at line 0"
+                    ], 
+                    "depth": 1, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "6.312s(16.36%) main in main.cpp at line 146"
+                    ], 
+                    "depth": 2, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "6.312s(16.36%) generic_start_main.isra.0 in libc.so.6 at line 0"
+                    ], 
+                    "depth": 3, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "6.312s(16.36%) __libc_start_main in libc.so.6 at line 0"
+                    ], 
+                    "depth": 4, 
+                    "LinkIDs": 50000008
+                }
+            ]
+        }, 
+        {
+            "DisplayID": 50000006, 
+            "TextRows": [
+                {
+                    "Text": [
+                        "6.312s(16.36%) cudaFree in main at line 0"
+                    ], 
+                    "depth": 1, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "6.312s(16.36%) main in main.cpp at line 146"
+                    ], 
+                    "depth": 2, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "6.312s(16.36%) generic_start_main.isra.0 in libc.so.6 at line 0"
+                    ], 
+                    "depth": 3, 
+                    "LinkIDs": 50000007
+                }
+            ]
+        }, 
+        {
+            "DisplayID": 50000005, 
+            "TextRows": [
+                {
+                    "Text": [
+                        "6.312s(16.36%) cudaFree in main at line 0"
+                    ], 
+                    "depth": 1, 
+                    "LinkIDs": null
+                }, 
+                {
+                    "Text": [
+                        "6.312s(16.36%) main in main.cpp at line 146"
+                    ], 
+                    "depth": 2, 
+                    "LinkIDs": 50000006
+                }
+            ]
+        }
+    ], 
+    "initial": [
+        {
+            "Text": [
+                "6.312s(16.36%) cudaFree in main at line 0"
+            ], 
+            "depth": 1, 
+            "timeData": 6.311853157, 
+            "LinkIDs": 50000005
+        }, 
+        {
+            "Text": [
+                "4.119s(10.68%) cudaDeviceReset in main at line 0"
+            ], 
+            "depth": 1, 
+            "timeData": 4.11935187, 
+            "LinkIDs": 50000035
+        }, 
+        {
+            "Text": [
+                "1.926s(4.99%) cudaMemcpy in main at line 0"
+            ], 
+            "depth": 1, 
+            "timeData": 1.926013173014286, 
+            "LinkIDs": 50000001
+        }
+    ]
+}
